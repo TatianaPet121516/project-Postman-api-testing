@@ -22,7 +22,7 @@ Before running the tests, ensure that the following are installed on your system
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+\`\`\`
 git clone https://github.com/TatianaPet121516/project-Postman-api-testing.git
 \`\`\`
 
@@ -30,7 +30,7 @@ git clone https://github.com/TatianaPet121516/project-Postman-api-testing.git
 
 If there are any Node.js dependencies in the project (such as Newman or supporting scripts), install them using:
 
-\`\`\`bash
+\`\`\`
 npm install
 \`\`\`
 
@@ -38,7 +38,7 @@ npm install
 
 Install Newman globally to run Postman tests from the command line:
 
-\`\`\`bash
+\`\`\`
 npm install -g newman
 \`\`\`
 
@@ -46,7 +46,7 @@ npm install -g newman
 
 To execute the Postman collection for the Automation Exercise API, use the following command:
 
-\`\`\`bash
+\`\`\`
 npm run test
 \`\`\`
 
