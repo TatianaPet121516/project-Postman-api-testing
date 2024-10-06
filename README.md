@@ -22,33 +22,25 @@ Before running the tests, ensure that the following are installed on your system
 
 ### 1. Clone the Repository
 
-\`\`\`
 git clone https://github.com/TatianaPet121516/project-Postman-api-testing.git
-\`\`\`
 
 ### 2. Install Dependencies
 
 If there are any Node.js dependencies in the project (such as Newman or supporting scripts), install them using:
 
-\`\`\`
 npm install
-\`\`\`
 
 ### 3. Install Newman
 
 Install Newman globally to run Postman tests from the command line:
 
-\`\`\`
 npm install -g newman
-\`\`\`
 
 ### 4. Run the Postman Tests with Newman
 
 To execute the Postman collection for the Automation Exercise API, use the following command:
 
-\`\`\`
 npm run test
-\`\`\`
 
 This command will run the collection and display the test results directly in the terminal.
 
@@ -56,9 +48,7 @@ This command will run the collection and display the test results directly in th
 
 You can also run Newman directly in the integrated terminal in VSCode. Open the terminal inside VSCode by selecting:
 
-\`\`\`
 Terminal > New Terminal
-\`\`\`
 
 Then run the same \`newman run\` commands.
 
@@ -94,4 +84,4 @@ This collection includes tests for the following endpoints:
 
 ## 📜 License
 
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the ISC License.
