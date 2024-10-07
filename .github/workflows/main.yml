@@ -46,13 +46,7 @@ jobs:
 
       # run the postman collection to console
       - name: Run POSTMAN collection to console
-        run: |
-          newman run ./postman-tests/user_management.postman_collection.json
-
-      # Run the POSTMAN collection to html report
-      - name: Run POSTMAN collection to html report
-        run: |
-          newman run ./postman-tests/user_management.postman_collection.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        run: |npm run test
 
       # Upload the contents of Test Results directory to workspace
       - name: Output the run Details
